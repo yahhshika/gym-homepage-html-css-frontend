@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">">
+</head>
+<style>
+    * {
+        color: white;
+
+
+    }
+
+    body {
+        background-image: url(gymPhoto.jpg);
+        margin: 0;
+        padding: 0;
+        height: 2000px;
+        background-color: grey;
+
+    }
+
+    .divcom {
+        /* border: 3px solid red; */
+        height: 55px;
+        margin-top: 50px;
+    }
+
+    #div1 {
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 1px;
+    }
+
+    #div2 {
+        display: block;
+        width: 45%;
+        margin: auto;
+        margin-top: 75px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /* border: 2px solid white; */
+        height: 200px;
+
+
+
+
+
+
+
+    }
+
+    #div2 ul {
+        display: block;
+        width: 75%;
+        margin: auto;
+        /* border: 3px solid blue; */
+        text-align: center;
+        height: 70px;
+    }
+
+    #div1 img {
+        display: block;
+        width: 100px;
+        margin: auto;
+
+
+    }
+
+    #div3 {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 45px;
+        width: 300px;
+        /* border: 2px solid red; */
+    }
+
+    /* header{
+            border: 2px solid white;
+        } */
+    #div1 p {
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-size: x-large
+    }
+
+    .ul1 li {
+        display: inline;
+        font-size: 48px;
+        margin: 20px
+    }
+
+    .ul1 a {
+        text-decoration: none;
+    }
+
+    .container {
+        border: 3px solid rgb(246, 244, 244);
+        width: 33%;
+        margin-left: 135px;
+        margin-top: 200px;
+        border-radius: 10px;
+        height: 1000px;
+        background-color: rgba(12, 12, 12, 0.8);
+
+
+    }
+
+    .container p {
+        text-align: center;
+        font-size: 75px;
+        text-decoration: underline;
+        /* border: 2px solid yellow; */
+        margin-top: 250px;
+        margin-bottom: 50px;
+    }
+
+    .formgroup input {
+        text-align: center;
+        display: block;
+        margin: auto;
+        height: 40px;
+        width: 350px;
+        font-size: 30px;
+        margin-bottom: 30px;
+        color: black;
+        border-radius: 20px;
+    }
+
+    .btn {
+        color: white;
+        display: block;
+        width: 350px;
+        height: 40px;
+        margin: auto;
+        margin-top: 55px;
+        margin-bottom: 50px;
+        background-color: rgb(79, 79, 79);
+        font-size: 35px;
+        border-radius: 100px;
+
+
+
+    }
+
+    .ul1 a:hover {
+        text-decoration: overline;
+        color: rgb(120, 119, 119);
+    }
+
+    .classimg {
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        margin-top: 13px;
+        margin-right: 14px;
+        margin-left: 7px;
+    }
+    #div3 span{
+        margin-left: 10px;
+        font-size: 45px;
+
+    }
+    .classimg:hover{
+        border-image: fill;
+        border: 2px solid white;
+        cursor: pointer;
+    
+        /* background-color: rgba(15, 221, 15, 0.8); */
+    }
+    .btn:hover{
+        cursor: pointer;
+        
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="divcom" id="div1">
+            <img src="gym-logo.jpeg" alt="img-not-found">
+            <p>PERFECT GYM</p>
+
+
+        </div>
+        <div class="divcom" id="div2">
+            <ul class="ul1">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CLASSES</a></li>
+                <!-- <li><a href="#">OUR TEAM</a></li> -->
+                <li><a href="#">SEVICES</a></li>
+            </ul>
+
+        </div>
+        <div class="divcom" id="div3">
+            <span>follow us:</span> <br>
+            <img src="facebook-whiteLogo.jpeg" alt="" id="" class="classimg">
+            <img src="whatsapp-whiteLogo.jpeg" alt="" id="" class="classimg">
+            <img src="linkedIn-whiteLogo.jpeg" alt="" id="" class="classimg">
+
+
+        </div>
+
+    </header>
+    <div class="container">
+        <p>REGISTER NOW</p>
+        <form action="action.php">
+            <div class="formgroup">
+                <input type="text" placeholder="ENTER NAME">
+            </div>
+            <div class="formgroup">
+                <input type="number" placeholder="ENTER AGE">
+            </div>
+            <div class="formgroup">
+                <input type="email" placeholder="ENTER EMAIL ID">
+            </div>
+            <div class="formgroup">
+                <input type="number" placeholder="ENTER CONTACT NO.">
+            </div>
+            <div>
+                <button class="btn">S U B M I T</button>
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+
+</body>
+
+</html>
